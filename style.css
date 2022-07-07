@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Gantari', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Slider section*/
+.slider-sec {
+    height: 98vh;
+    background-image: url(./images/donation13.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.front-text {
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+    color: white;
+    position: absolute;
+    left: 27%;
+    top: 22%;
+}
+
+.front-text h1 {
+    font-size: 62px;
+}
+
+.front-text p {
+    padding-top: 10px;
+    padding-bottom: 43px;
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(250, 123, 145);
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+/* Donate groupe section*/
+.donate-group {
+    padding: 100px 0;
+}
+
+.donate-grp-text {
+    text-align: center;
+}
+
+.donate-grp-text h1 {
+    font-size: 35px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+.donate-grp-text p {
+    font-size: 18px;
+    color: gray;
+    max-width: 700px;
+    margin: auto;
+}
+
+.donate-grp-text ul {
+    margin: 30px 0;
+}
+
+.donate-grp-text ul li {
+    display: inline-block;
+    background-color: rgb(223, 236, 245);
+    padding: 40px 20px;
+    font-size: 23px;
+    font-weight: 500;
+    margin: 30px 10px;
+    border-radius: 5px;
+}
+
+.donate-grp-text ul li:nth-child(2) {
+    border: 3px solid rgb(215, 67, 13);
+    color: rgb(215, 67, 13);
+    background: rgb(227, 220, 220);
+}
+
+#amount-input {
+    text-align: center;
+}
+
+#amount-input input {
+    border: none;
+    border-bottom: 2px solid black;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 90px;
+    font-size: 19px;
+}
+
+#donate-now-btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.extra-cls {
+    padding: 50px 0 !important;
+}
+
+/* needed cart*/
+#needed-cart {
+    text-align: center;
+}
+
+#needed-cart ul {
+    margin: 30px 0;
+}
+
+#needed-cart ul li {
+    display: inline-block;
+    width: 25%;
+    font-size: 15px;
+    text-align: left;
+    padding: 35px 20px;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+#needed-cart ul li:nth-child(1) {
+    background-color: rgb(223, 236, 245);
+}
+
+#needed-cart ul li:nth-child(2) {
+    background-color: rgb(235, 225, 225);
+}
+
+#needed-cart ul li:nth-child(3) {
+    background-color: rgb(189, 189, 218);
+}
+
+#needed-cart ul li img {
+    height: 60px;
+}
+
+#needed-cart ul li h2 {
+    padding: 15px 0;
+}
+
+#needed-cart ul li p {
+    padding: 10px 0;
+}
+
+/* About us section*/
+.see-more {
+    display: flex;
+}
+
+
+.see-more .right-text {
+
+    background-color: rgb(23, 22, 22);
+    color: aliceblue;
+}
+
+.see-more .right-text h1 {
+    font-size: 44px;
+    padding: 40px 0;
+}
+
+.see-more .right-text p {
+    font-size: 15px;
+    padding-bottom: 51px;
+}
+
+.get-update-div {
+    background: rgb(236, 208, 195);
+    width: 40%;
+    margin: 39px auto;
+    padding: 70px 63px;
+    border-radius: 5px;
+}
+
+.get-update-div .get-update-btn {
+    border-radius: 0 10px 10px 0;
+    margin-left: -14px;
+}
+
+#get-update-input {
+    padding: 13px 80px 10px 20px;
+    display: inline-block;
+    border: none;
+    background: rgb(206, 200, 200);
+    font-size: 20px;
+    border-radius: 10px 0 0 10px;
+}
+
+/* Footer section*/
+footer {
+    background-color: rgb(15, 15, 15);
+    padding: 50px 0;
+    text-align: center;
+}
+
+footer h1 {
+    color: rgb(184, 100, 100);
+    font-weight: 400;
+    font-family: 'Gantari', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    padding: 10px 0;
+}
+
+footer p {
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    padding-top: 15px;
+}
